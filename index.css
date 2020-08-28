@@ -12,6 +12,7 @@ a {
 
 body {
   width: 100vw;
+  /* overflow-x: hidden; */
 }
 
 p {
@@ -29,7 +30,7 @@ header {
   background-color: rgb(200, 54, 54);
   padding: 20px 0;
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   top: 0;
   left: 0;
@@ -80,6 +81,7 @@ main {
   width: 100%;
   margin: 80px auto;
   padding: 0 40px;
+  box-sizing: border-box;
 }
 article h2 {
   color: rgb(200, 54, 54);
